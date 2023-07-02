@@ -151,7 +151,7 @@ class TodoListState extends State<TodoList> {
                                         child: Text(
                                             todos['data'][index]["attributes"]
                                                     ["name"]
-                                                .toString() /*"Go to the grocery store"*/,
+                                                .toString(),
                                             style: const TextStyle(
                                                 fontSize: 16,
                                                 color: Colors.white,
